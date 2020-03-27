@@ -25,20 +25,22 @@
     "@angular/platform-browser-dynamic": "~2.2.0",
     "@angular/router": "~3.2.0",
     "@angular/upgrade": "~2.2.0",
+    "@types/jasmine": "^3.5.10",
     "core-js": "~2.4.1",
     "ng2f-bootstrap": "~0.0.4",
     "ng2f-server": "~0.2.3",
     "reflect-metadata": "~0.1.8",
-    "rxjs": "5.0.0-beta.12",
+    "rxjs": "^5.5.12",
     "systemjs": "0.19.40",
     "tostr": "^0.1.0",
     "zone.js": "~0.6.26"
   },
   "devDependencies": {
-    "concurrently": "2.2.0",
-    "typescript": "~2.0.3",
     "@types/core-js": "~0.9.34",
-    "@types/node": "~6.0.46"
+    "@types/node": "^13.9.3",
+    "concurrently": "2.2.0",
+    "jasmine": "^3.5.0",
+    "typescript": "^2.0.10"
   },
   "repository": {}
 }
