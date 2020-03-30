@@ -40,6 +40,8 @@
     "@types/node": "^13.9.3",
     "concurrently": "2.2.0",
     "jasmine": "^3.5.0",
+    "jasminewd2": "^2.2.0",
+    "protractor": "^5.4.3",
     "typescript": "^2.0.10"
   },
   "repository": {}

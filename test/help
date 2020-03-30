@@ -1,0 +1,5 @@
+To run protractor tests:
+1. run webdriver manager: webdriver-manager start 
+2. run the application itself: npm run start
+3. compile test code from /test directory: tsc
+4. run: protractor conf.js
