@@ -1,12 +1,19 @@
 import { browser } from '../node_modules/protractor';
 import { HomePage } from './pageobjects/HomePage';
 
+var homePage = new HomePage();
+
 describe("Basic Test Suite", () => {
 
-    var homePage = new HomePage();
+    beforeEach(() => {
+        homePage.open();
+    });
 
     it("Verify page headings", () => {
-        homePage.openBrowser("http://localhost:8808");
+        homePage.getAllHeadings();
+    });
+
+    it("Verify page headings.", () => {
         homePage.getAllHeadings();
         homePage.clickFirstHeading();
     });

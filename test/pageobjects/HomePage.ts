@@ -2,21 +2,23 @@ import { browser, element, by, $ } from 'protractor';
 
 export class HomePage {
 
+    url: string = "http://localhost:8808";
+
     heading = element(by.xpath("//h2[contains(text(), 'Selenium Framework development')]"));
 
     headings = $(".well.hoverwell.thumbnail>h2");
 
-    openBrowser(url: string) {
-        browser.get(url);
+    open(): void {
+        browser.get(browser.baseUrl);
     }
 
-    getAllHeadings() {
+    getAllHeadings(): void {
         this.headings.getText().then((text) => {
             console.log("Heading: " + text);
         });
     }
 
-    clickFirstHeading() {
+    clickFirstHeading(): void {
         this.heading.click();
     }
 

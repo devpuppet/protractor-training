@@ -3,6 +3,8 @@
     "target": "es6",
     "module": "commonjs",
     "moduleResolution": "node",
+    "outDir": "./dist",
+    "mapRoot": "./dist",
     "sourceMap": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,

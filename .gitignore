@@ -4,6 +4,6 @@ typings
 /app/**/*.map
 /test/**/*.js
 /test/**/*.map
-.vscode/
+/dist
 
 
